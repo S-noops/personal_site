@@ -1,0 +1,27 @@
+WEBSITE TODOs
+--------------------
+1. Build Project        (DONE)
+ - creating the folder
+ - adding files
+ - connecting files
+
+2. Navbar               (DONE)
+ - 2 links and a name
+
+3. Portfolio item grid  (DONE)
+ - images
+ - titles
+ - descriptions
+ - animations
+ - javascript
+
+4. About page           (DONE)
+ - image
+ - split column layout
+
+ 5. Flask           
+ - fix images (X)
+ - fix home/about nav-bar hyperlinks (X)
+ - add nav-bar template
+ - push current version to git  (X)
+ - connect bootystrap
