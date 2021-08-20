@@ -22,6 +22,12 @@ WEBSITE TODOs
  5. Flask           
  - fix images (X)
  - fix home/about nav-bar hyperlinks (X)
- - add nav-bar template
+ - add nav-bar template (X)
  - push current version to git  (X)
  - connect bootystrap
+ 
+ 6. Flask Password Generator 
+ - add path in server.py to password generator page
+ - make button on home page that links to pass_gen page
+ - do base html for password gen page
+ - begin making functional page

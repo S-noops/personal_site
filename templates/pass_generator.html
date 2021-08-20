@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block leftNav %}
+<div class="nav-link-wrapper"> 
+    <a href="{{url_for('index')}}">Home</a>
+</div>
+
+<div class="nav-link-wrapper">
+    <a href="{{url_for('about')}}">About</a>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="content-wrapper">
+    <div class="three-row-wrapper">
+        <div class="title-wrapper">
+            <h2>Password Generator</h2>
+
+            <h4>Select the length and the characters you would like to have in your newly generated password.</h4>
+        </div>
+
+        <div class="password-content-wrapper">
+
+            <div class="length-input-wrapper">
+                <form action="#" method="POST">
+                    <div class="form-length">
+                        <input type="text" placeholder="Password Length" name="pass_len">
+                    </div>
+                </form>
+            </div>
+
+            <div class="checkbox-item-wrapper">
+                <div class="checkbox-item">
+                    <input type="checkbox" name="uppercase" id="upper">
+                    <label class="checkbox_label" for="upper">
+                        Uppercase
+                    </label>
+                </div>
+    
+                <div class="checkbox-item">
+                    <input type="checkbox" name="lowercase" id="lower">
+                    <label class="checkbox_label" for="lower">
+                        Lowercase
+                    </label>
+                </div>
+    
+                <div class="checkbox-item">
+                    <input type="checkbox" name="numbers" id="digits">
+                    <label class="checkbox_label" for="digits">
+                        Digits
+                    </label>
+                </div>
+    
+                <div class="checkbox-item">
+                    <input type="checkbox" name="special_characters" id="special">
+                    <label class="checkbox_label" for="special">
+                        Special Characters
+                    </label>
+                </div>
+
+            </div>
+
+            <input type="submit" value="Generate" id="generate_pass" />
+
+        </div>
+
+
+
+    </div>
+</div>
+
+{% endblock %}
